@@ -10,6 +10,8 @@ Step 2.2 − If it is not equal to 0, then go to step 1, with a = {(a & b) << 1}
 
 
 int addNumbers(int a, int b) {
+    if (b == 0) // step 1: base condition
+       return a;
     int result = a^b;            // perform bitwise addition
     int carry = (a & b) << 1;    // check if the addtion has a carry
     if (carry == 0)              
