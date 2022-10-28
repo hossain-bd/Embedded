@@ -1,6 +1,6 @@
 /**
 	Packed BCD means the two digit decimal or hex number is represented by a single 8 bit binary number.
-	Unpacked BCD means singel digit decimal or hex number is represented by a nibble.
+	Unpacked BCD means single digit decimal or hex number is represented by a nibble.
 **/
 #include<stdio.h>
 
